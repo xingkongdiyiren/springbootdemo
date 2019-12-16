@@ -18,7 +18,7 @@ public class UserController {
         str.length();
         return "ok";
     }
-    @ExceptionHandler(value = java.lang.NullPointerException.class)
+    @ExceptionHandler(value = {java.lang.NullPointerException.class})
     public ModelAndView nullpointExceptionHandler(Exception e){
         ModelAndView mv=new ModelAndView();
         mv.addObject("err",e.toString());
