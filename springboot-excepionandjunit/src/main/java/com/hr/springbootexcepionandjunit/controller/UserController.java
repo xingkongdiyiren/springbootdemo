@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UserController {
 
-    @RequestMapping
+    @RequestMapping("/showInfo")
     public String showInfo(){
         String str = null;
         str.length();

@@ -4,7 +4,20 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="" />
+    <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="SpringBoot 中异常处理与单元测试-自定义错误页面">
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/java/com/hr/springbootexcepionandjunit/SpringbootExcepionandjunitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/test/java/com/hr/springbootexcepionandjunit/SpringbootExcepionandjunitApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/java/com/hr/springbootexcepionandjunit/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/java/com/hr/springbootexcepionandjunit/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootMybatisApplication">
+  <component name="RunManager" selected="Spring Boot.SpringbootExcepionandjunitApplication">
     <configuration name="springboot-web01 [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -310,7 +323,7 @@
       <workItem from="1576492746809" duration="218000" />
       <workItem from="1576493086203" duration="789000" />
       <workItem from="1576493976439" duration="5189000" />
-      <workItem from="1576507144947" duration="2479000" />
+      <workItem from="1576507144947" duration="2747000" />
     </task>
     <task id="LOCAL-00001" summary="zhz">
       <created>1576505921611</created>
@@ -333,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576509629642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SpringBoot 中异常处理与单元测试-自定义错误页面">
+      <created>1576509649243</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576509649243</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
