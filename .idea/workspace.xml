@@ -4,20 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +310,7 @@
       <workItem from="1576492746809" duration="218000" />
       <workItem from="1576493086203" duration="789000" />
       <workItem from="1576493976439" duration="5189000" />
-      <workItem from="1576507144947" duration="2211000" />
+      <workItem from="1576507144947" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="zhz">
       <created>1576505921611</created>
@@ -339,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576507948003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SpringBoot 中异常处理与单元测试-自定义错误页面">
+      <created>1576509629642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576509629642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +355,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zhz" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="SpringBoot 中异常处理与单元测试-自定义错误页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 中异常处理与单元测试-自定义错误页面" />
   </component>
 </project>
