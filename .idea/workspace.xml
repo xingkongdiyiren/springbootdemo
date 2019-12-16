@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/java/com/hr/springbootexcepionandjunit/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/java/com/hr/springbootexcepionandjunit/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-excepionandjunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-excepionandjunit/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -313,7 +312,7 @@
       <workItem from="1576492746809" duration="218000" />
       <workItem from="1576493086203" duration="789000" />
       <workItem from="1576493976439" duration="5189000" />
-      <workItem from="1576507144947" duration="3283000" />
+      <workItem from="1576507144947" duration="3552000" />
     </task>
     <task id="LOCAL-00001" summary="zhz">
       <created>1576505921611</created>
@@ -350,7 +349,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576510049048</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SpringBoot 中异常处理与单元测试-通过@ExceptionHandler 注解处理异常">
+      <created>1576510560223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576510560223</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SpringBoot 中异常处理与单元测试-通过@ExceptionHandler 注解处理异常">
+      <created>1576510610337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576510610337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +388,7 @@
     <MESSAGE value="zhz" />
     <MESSAGE value="修改" />
     <MESSAGE value="SpringBoot 中异常处理与单元测试-自定义错误页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 中异常处理与单元测试-自定义错误页面" />
+    <MESSAGE value="SpringBoot 中异常处理与单元测试-通过@ExceptionHandler 注解处理异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 中异常处理与单元测试-通过@ExceptionHandler 注解处理异常" />
   </component>
 </project>
