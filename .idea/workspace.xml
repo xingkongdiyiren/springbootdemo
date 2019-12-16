@@ -4,7 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="" />
+    <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-fileupload/src/main/java/com/hr/springbootfileupload/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileupload/src/main/java/com/hr/springbootfileupload/controller/FileUploadController.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -62,6 +67,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1UFCC9mdDHQPHCkhok9gUOyxxYk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -69,6 +75,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/developer_tools_document/git/Git/bin/git.exe" />
@@ -296,11 +303,22 @@
       <workItem from="1576380322206" duration="7432000" />
       <workItem from="1576492746809" duration="218000" />
       <workItem from="1576493086203" duration="789000" />
-      <workItem from="1576493976439" duration="4124000" />
+      <workItem from="1576493976439" duration="4937000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
