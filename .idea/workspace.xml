@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates/error6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,25 +89,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/developer_tools_document/git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-excepionandjunit/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24273255" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\springbootdemo\spring-boot-servlet\src\main\webapp\WEB-INF\" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hr.springbootservlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\springbootdemo\springboot-excepionandjunit\src\main\resources\templates" />
       <recent name="E:\IdeaProjects\springbootdemo\springboot-mybatis\src\main\resources\templates" />
       <recent name="E:\IdeaProjects\springbootdemo\springboot-mybatis\src\main\resources" />
       <recent name="E:\IdeaProjects\springbootdemo\springboot-mybatis\src\main\java\com\hr\springbootmybatis" />
       <recent name="E:\IdeaProjects\springbootdemo\springboot-jdbc\src\main\resources" />
-      <recent name="E:\IdeaProjects\springbootdemo\springboot-resource\src\main\resources\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\springbootdemo\spring-boot-servlet\src\main\webapp\WEB-INF\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,6 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootExcepionandjunitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-excepionandjunit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hr.springbootexcepionandjunit.SpringbootExcepionandjunitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootFileuploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-fileupload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hr.springbootfileupload.SpringbootFileuploadApplication" />
@@ -263,6 +281,7 @@
       <item itemvalue="Spring Boot.SpringBootResourceApp" />
       <item itemvalue="Spring Boot.SpringBootServletApplication (1)" />
       <item itemvalue="Spring Boot.SpringBootServletApplication2" />
+      <item itemvalue="Spring Boot.SpringbootExcepionandjunitApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -304,7 +323,7 @@
       <workItem from="1576492746809" duration="218000" />
       <workItem from="1576493086203" duration="789000" />
       <workItem from="1576493976439" duration="5189000" />
-      <workItem from="1576507144947" duration="650000" />
+      <workItem from="1576507144947" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="zhz">
       <created>1576505921611</created>
@@ -313,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576505921611</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改">
+      <created>1576507948003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576507948003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +360,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zhz" />
-    <option name="LAST_COMMIT_MESSAGE" value="zhz" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
 </project>

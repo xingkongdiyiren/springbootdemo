@@ -9,6 +9,7 @@
         <module name="springboot-jsp" />
         <module name="springboot-resource" />
         <module name="springboot-jdbc" />
+        <module name="springboot-excepionandjunit" />
         <module name="springboot-fileupload" />
         <module name="spring-boot-servlet" />
         <module name="springboot-freemarker" />
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-servlet" options="-parameters" />
+      <module name="springboot-excepionandjunit" options="-parameters" />
       <module name="springboot-fileupload" options="-parameters" />
       <module name="springboot-freemarker" options="-parameters" />
       <module name="springboot-jdbc" options="-parameters" />
