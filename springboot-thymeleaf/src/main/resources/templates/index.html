@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01
+Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf初学</title>
+</head>
+<body>
+    <span th:text="华软"></span><br>
+    <span th:text="${msg}"></span><br>
+    <input th:value="${msg}"><br>
+    <hr/>
+    <!--thymeleaf字符串操作-->
+    <!--判断字符串是否为空，如果为空返回 true，否则返回 false-->
+    <span th:text="${#strings.isEmpty(msg)}"></span><br/><!--false-->
+    <!--判断字符串是否包含指定的子串，如果包含返回 true，否则返回false-->
+    <span th:text="${#strings.contains(msg,'m')}"></span><br/><!--true-->
+    <!--判断当前字符串是否以子串开头，如果是返回 true，否则返回 false-->
+    <span th:text="${#strings.startsWith(msg,'H')}"></span><br/><!--true-->
+    <!--判断当前字符串是否以子串结尾，如果是返回 true，否则返回 false-->
+    <span th:text="${#strings.endsWith(msg,'f')}"></span><br/><!--true-->
+    <!--返回字符串的长度-->
+    <span th:text="${#strings.length(msg)}"></span><br/><!--15-->
+    <!--查找子串的位置，并返回该子串的下标，如果没找到则返回-1-->
+    <span th:text="${#strings.indexOf(msg,'t')}"></span><br/><!--(-1)-->
+    <!--截取子串，用户与 jdk String 类下 SubString 方法相同-->
+    <span th:text="${#strings.substring(msg,2)}"></span><br/><!--llo Thymeleaf-->
+    <span th:text="${#strings.substring(msg,2,3)}"></span><br/><!--l-->
+    <!--字符串转大小写-->
+    <span th:text="${#strings.toLowerCase(msg)}"></span><br/><!--hello thymeleaf-->
+    <span th:text="${#strings.toUpperCase(msg)}"></span><br/><!--HELLO THYMELEAF-->
+    <hr/>
+    <!--日期格式化处理-->
+    <!--格式化日期，默认的以浏览器默认语言为格式化标准-->
+    <span th:text="${#dates.format(date)}"></span><br/>
+    <!--按照自定义的格式做日期转换-->
+    <span th:text="${#dates.format(date,'yyyy-MM-dd')}"></span><br/>
+    <!--按照自定义的格式做日期转换-->
+    <!--Year：取年-->
+    <span th:text="${#dates.year(date)}"></span><br/>
+    <!--Month：取月-->
+    <span th:text="${#dates.month(date)}"></span><br/>
+    <!--Day：取日-->
+    <span th:text="${#dates.day(date)}"></span><br/>
+    <hr/>
+    <!--条件判断  th:if-->
+    <div>
+        <span th:if="${sex}=='男'">
+            性别：男
+        </span>
+        <span th:if="${sex}=='女'">
+            性别：女
+        </span>
+    </div>
+    <hr/>
+    <!--条件判断  th:switch / th:case-->
+    <div  th:switch="${id}">
+        <span th:case="1">ID为1</span>
+        <span th:case="2">ID为2</span>
+        <span th:case="3">ID为3</span>
+        <span th:case="4">ID为4</span>
+        <span th:case="*">ID为*</span>
+    </div>
+    <hr/>
+    <!--迭代遍历 th:each->迭代器，用于循环迭代list集合-->
+    <table border="1" width="50%">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>Index</th>
+            <th>count</th>
+            <th>size</th>
+            <th>odd</th>
+            <th>even</th>
+            <th>first</th>
+            <th>last</th>
+        </tr>
+        <tr th:each="user,u : ${list}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.age}"></td>
+            <td th:text="${u.index}"></td>
+            <td th:text="${u.count}"></td>
+            <td th:text="${u.size}"></td>
+            <td th:text="${u.odd}"></td>
+            <td th:text="${u.even}"></td>
+            <td th:text="${u.first}"></td>
+            <td th:text="${u.last}"></td>
+        </tr>
+    </table>
+    <hr/>
+    <!--迭代遍历 th:each->迭代器，用于循环迭代Map集合-->
+    <table border="1" width="50%">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>key</th>
+        </tr>
+        <tr th:each="m : ${map}">
+            <td th:text="${m.value.id}"></td>
+            <td th:text="${m.value.name}"></td>
+            <td th:text="${m.value.age}"></td>
+            <td th:text="${m.key}"></td>
+        </tr>
+    </table>
+    <hr/>
+    <!--操作域对象  HttpServletRequest, HttpSession, ServletContext-->
+    HttpServletRequest:<span th:text="${#request.getAttribute('req')}"></span><br/>
+                        or<br/>
+                        <span th:text="${#httpServletRequest.getAttribute('req')}"></span><br/>
+    HttpSession:<span th:text="${#session.getAttribute('ses')}"></span><br/>
+                or<br/>
+                 <span th:text="${session.ses}"></span><br/>
+    Application：<span th:text="${#servletContext.getAttribute('app')}"></span><br/>
+                or<br/>
+                <span th:text="${application.app}"></span><br/>
+    <hr/>
+    <!--URL 类型-->
+    <a th:href="@{http://www.baidu.com}">百度(绝对路劲)</a>
+    <a th:href="@{/show2}">相对路劲，请求本项目的controller</a>
+    <hr/>
+    <!--在 URL 中传递参数,在普通格式的 URL 中传递参数-->
+    <a th:href="@{/show?id=1&name=zhangsan}">普通 URL 格式传参</a>
+    <a th:href="@{/show(id=1,name=zhangsan)}">普通 URL 格式传参</a>
+    <a th:href="@{'/show?id='+${id}+'&name='+${name}}"> 普 通 URL 格 式 传 参
+    </a>
+    <a th:href="@{/show(id=${id},name=${name})}">普通 URL 格式传参</a>
+    <hr/>
+    <!--在 restful 格式的 URL 中传递参数-->
+    <a th:href="@{/show/{id}(id=1)}">restful 格式传参</a>
+    <a th:href="@{/show/{id}/{name}(id=1,name=admin)}">restful 格 式 传 参
+    </a>
+    <a th:href="@{/show/{id}(id=1,name=admin)}">restful 格式传参</a>
+    <a th:href="@{/show/{id}(id=${id},name=${name})}">restful 格式传参</a>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="shortcut icon" href="../resources/favicon.ico" th:href="@{/static/favicon.ico}"/>
+<head>
+    <title>查询页面</title>
+</head>
+<body>
+        <table border="1" align="center">
+
+            <tr>
+                <th>用户ID</th>
+                <th>用户姓名</th>
+                <th>用户性别</th>
+                <th>操作</th>
+            </tr>
+            <tr th:each="u : ${list}">
+                <td th:text="${u.userid}"></td>
+                <td th:text="${u.username}"></td>
+                <td th:text="${u.usersex}"></td>
+                <td>
+                    <a th:href="@{/user/preUpdateUser(id=${u.userid})}">修改</a>
+                    <a th:href="@{/user/deleteUser(id=${u.userid})}">删除</a>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

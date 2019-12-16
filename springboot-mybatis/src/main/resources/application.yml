@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/ssm?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 489773
+    type: com.alibaba.druid.pool.DruidDataSource
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates/
+    mode: HTML
+    cache: false
+    check-template-location: true
+    encoding: UTF-8

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>更新用户</title>
+</head>
+<body>
+    <form th:action="@{/user/updateUser}" method="post">
+        <input  type="hidden" name="userid" th:value="${users.userid}">
+       用户名： <input  type="text" name="username" th:value="${users.username}"><br/>
+        性别：<input  type="text" name="usersex" th:value="${users.usersex}"><br/>
+            <input type="submit" value="更新用户">
+    </form>
+
+</body>
+</html>

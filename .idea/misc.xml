@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springbootservlet" />
+    <file type="web" url="file://$PROJECT_DIR$/wechat" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-web01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/a/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootservlet/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" location="D:/developer_tools_document/mybatis-generator-dtd/mybatis-generator-config_1_0.dtd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

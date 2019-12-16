@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-jsp" />
+        <module name="springboot-resource" />
+        <module name="springboot-jdbc" />
+        <module name="springboot-fileupload" />
+        <module name="spring-boot-servlet" />
+        <module name="springboot-freemarker" />
+        <module name="springboot-thymeleaf" />
+        <module name="springboot-web01" />
+        <module name="springbootservlet" />
+        <module name="springboot-mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a" target="1.8" />
+      <module name="springbootservlet" target="1.8" />
+      <module name="wechat" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-servlet" options="-parameters" />
+      <module name="springboot-fileupload" options="-parameters" />
+      <module name="springboot-freemarker" options="-parameters" />
+      <module name="springboot-jdbc" options="-parameters" />
+      <module name="springboot-jsp" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-resource" options="-parameters" />
+      <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="springboot-web01" options="-parameters" />
+      <module name="wechat" options="-parameters" />
+    </option>
+  </component>
+</project>
