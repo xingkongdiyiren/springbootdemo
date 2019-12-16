@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6020afaa-71d8-416b-b2cc-3994d6e3042a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileupload/src/main/java/com/hr/springbootfileupload/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileupload/src/main/java/com/hr/springbootfileupload/controller/FileUploadController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UFCC9mdDHQPHCkhok9gUOyxxYk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -85,6 +85,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\springbootdemo\spring-boot-servlet\src\main\webapp\WEB-INF\" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hr.springbootservlet" />
     </key>
@@ -94,9 +97,6 @@
       <recent name="E:\IdeaProjects\springbootdemo\springboot-mybatis\src\main\java\com\hr\springbootmybatis" />
       <recent name="E:\IdeaProjects\springbootdemo\springboot-jdbc\src\main\resources" />
       <recent name="E:\IdeaProjects\springbootdemo\springboot-resource\src\main\resources\static\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\springbootdemo\spring-boot-servlet\src\main\webapp\WEB-INF\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,8 +303,17 @@
       <workItem from="1576380322206" duration="7432000" />
       <workItem from="1576492746809" duration="218000" />
       <workItem from="1576493086203" duration="789000" />
-      <workItem from="1576493976439" duration="4937000" />
+      <workItem from="1576493976439" duration="5189000" />
+      <workItem from="1576507144947" duration="650000" />
     </task>
+    <task id="LOCAL-00001" summary="zhz">
+      <created>1576505921611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576505921611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,10 +324,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zhz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zhz" />
   </component>
 </project>

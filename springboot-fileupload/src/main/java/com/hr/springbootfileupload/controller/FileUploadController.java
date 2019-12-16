@@ -22,6 +22,6 @@ public class FileUploadController {
         //获取文件真实名字
         System.out.println(file.getOriginalFilename());
         file.transferTo(new File("f:/"+file.getOriginalFilename()));
-        return  "sucee";
+        return  "OK";
     }
 }
